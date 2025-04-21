@@ -1,3 +1,36 @@
+# AI Recruiter - AI Interview Platform
+
+## Project Overview
+AI Recruiter is an AI-driven interview platform that simplifies the hiring process with automated interviews and candidate evaluation.
+
+## Implemented Features
+- Dashboard UI with mock interview data
+- Sidebar navigation
+- Interview creation cards
+- Basic authentication setup
+
+## Technologies Used
+- Next.js 15.3.0
+- React 18
+- Tailwind CSS
+- MongoDB (Mongoose)
+- React Icons
+- Class Variance Authority for UI components
+
+## Pending Tasks
+- Implement interview creation functionality
+- Add candidate management
+- Integrate AI interview features
+- Complete authentication flow
+- Add billing system
+
+## API Endpoints
+- Auth endpoints (WIP)
+
+## Data Models
+- User model (basic implementation)
+
+## Getting Started
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -28,6 +61,12 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## API Documentation
+
+| Endpoint       | Method | Description                     |
+|----------------|--------|---------------------------------|
+| /api/auth      | POST   | Authentication (login/signup)   |
 
 ## Deploy on Vercel
 
